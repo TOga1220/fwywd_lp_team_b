@@ -59,6 +59,10 @@ export default function Home() {
           <div>
             <h4 className='flex justify-center text-3xl'>2.熱意が高い仲間とのつながり</h4>
             {/* ここにcomunication2の画像を挿入 */}
+            <h3 className='flex justify-center'>
+              コミュニティ内では他の参加者への伝達事項や各個人が感銘を受けた記事などを共有
+            </h3>
+            <img src='communication2.png' width='500' />
           </div>
         </div>
       </main>
