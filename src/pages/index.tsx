@@ -65,6 +65,37 @@ export default function Home() {
             <img src='communication2.png' width='500' />
           </div>
         </div>
+        {/* ここに参加者体験詳細 */}
+        <h2 className='mt-10 ml-5 text-4xl'>参加者体験詳細</h2>
+        <div className='flex justify-evenly'>
+          <div className=' my-10 mx-5'>
+            <img src='pic1.png' width='200' />
+            <h3 className='flex justify-center text-2xl'>hoge(27)</h3>
+            <p>
+              私がこのFwywwに参加して感じたのは、
+              <br />
+              参加者の意識が高いことです。
+            </p>
+          </div>
+          <div className=' my-10 mx-5'>
+            <img src='pic2.png' width='280' />
+            <h3 className='flex justify-center text-2xl'>hoge(26)</h3>
+            <p>
+              「参加して良かった」と思える
+              <br />
+              体験になると思います。
+            </p>
+          </div>
+          <div className=' my-10 mx-5'>
+            <img src='pic3.png' width='230' />
+            <h3 className='flex justify-center text-2xl'>hoge(27)</h3>
+            <p>
+              経営力と技術力を学び
+              <br />
+              非常にためになりました。
+            </p>
+          </div>
+        </div>
       </main>
     </div>
   );
