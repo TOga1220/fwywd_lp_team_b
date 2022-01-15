@@ -12,11 +12,99 @@ export default function Home() {
       </Head>
 
       <main>
+        {/* メインタイトル */}
         <div>
           <img src='entre.png' width='1440' />
         </div>
-        <h2 className='mt-10 ml-5 text-4xl'>実際の活動</h2>
-        <div className='flex justify-evenly'>
+
+        {/* 受講する理由 */}
+        <h2 className='mt-20 ml-5 text-4xl'>fwywd in 淡路を受講する理由</h2>
+        <div className='flex justify-evenly mt-10'>
+          <div>
+            <h3 className='flex justify-center text-2xl'>01</h3>
+            <figure className='block py-2 px-4 text-center bg-gray-300 rounded-md'>
+              <p>
+                起業初期の
+                <br />
+                生活資金が心配
+              </p>
+            </figure>
+            <div className='flex justify-center'>
+              <img src='矢印.png' width='50' />
+            </div>
+            <div className='flex justify-center mt-5'>
+              <img src='4.png' width='200' />
+            </div>
+          </div>
+          <div>
+            <h3 className='flex justify-center text-2xl'>02</h3>
+            <figure className='block py-2 px-4 text-center bg-gray-300 rounded-md'>
+              <p>
+                起業初期の
+                <br />
+                生活資金が心配
+              </p>
+            </figure>
+            <div className='flex justify-center'>
+              <img src='矢印.png' width='50' />
+            </div>
+            <div className='flex justify-center mt-5'>
+              <img src='5.png' width='200' />
+            </div>
+          </div>
+          <div>
+            <h3 className='flex justify-center text-2xl'>03</h3>
+            <figure className='block py-2 px-4 text-center bg-gray-300 rounded-md'>
+              <p>
+                起業初期の
+                <br />
+                生活資金が心配
+              </p>
+            </figure>
+            <div className='flex justify-center'>
+              <img src='矢印.png' width='50' />
+            </div>
+            <div className='flex justify-center mt-5'>
+              <img src='6.png' width='200' />
+            </div>
+          </div>
+          <div>
+            <h3 className='flex justify-center text-2xl'>04</h3>
+            <figure className='block py-2 px-4 text-center bg-gray-300 rounded-md'>
+              <p>
+                起業初期の
+                <br />
+                生活資金が心配
+              </p>
+            </figure>
+            <div className='flex justify-center'>
+              <img src='矢印.png' width='50' />
+            </div>
+            <div className='flex justify-center mt-5'>
+              <img src='7.png' width='200' />
+            </div>
+          </div>
+          <div>
+            <h3 className='flex justify-center text-2xl'>05</h3>
+            <figure className='block py-2 px-4 text-center bg-gray-300 rounded-md'>
+              <p>
+                起業初期の
+                <br />
+                生活資金が心配
+              </p>
+            </figure>
+            <div className='flex justify-center'>
+              <img src='矢印.png' width='50' />
+            </div>
+            <div className='flex justify-center mt-5'>
+              <img src='8.png' width='200' />
+            </div>
+          </div>
+        </div>
+
+        {/* 実際の活動 */}
+        <h2 className='mt-20 ml-5 text-4xl'>実際の活動内容</h2>
+        <div className='flex justify-evenly mt-10'>
           <div>
             <h4 className='flex justify-center text-3xl'>1.ビジネス力×技術力の強化</h4>
             <h3 className='flex justify-center'>起業家に必要な影響力、資本力、技術力の強化</h3>
@@ -58,7 +146,6 @@ export default function Home() {
           </div>
           <div>
             <h4 className='flex justify-center text-3xl'>2.熱意が高い仲間とのつながり</h4>
-            {/* ここにcomunication2の画像を挿入 */}
             <h3 className='flex justify-center'>
               コミュニティ内では他の参加者への伝達事項や各個人が感銘を受けた記事などを共有
             </h3>
